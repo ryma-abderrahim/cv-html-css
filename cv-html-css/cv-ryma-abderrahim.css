@@ -1,0 +1,341 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: hsl(194, 100%, 5%);
+}
+
+nav{
+    text-align: center;
+    font-size: 20px;
+}
+
+ul{
+   display: flex;
+   justify-content: space-around ;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+.image{
+    float :right;
+    margin-left: 1px;
+    width: 30vw;
+    height: 80vh;
+   
+}
+
+h1{
+   margin-left: 3cm;
+   margin-top: 5cm;
+   font-family: robotron ;
+   color:azure;
+   text-align: center;
+}
+
+p{
+    margin-left: 3cm;
+    margin-bottom: 9cm;
+    font-family: robotron ;
+    text-align: center;
+    color:azure;
+}
+
+/*informations personnelles*/
+
+.InformationPersonnelle{
+    background-color:rgba(255, 255, 255, 0.24);
+    padding: 1%;
+    border-radius: 4%;
+    text-align: center;
+}
+
+.infos h2{
+    margin-top: 2cm;
+    font-family: robotron ;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.case{
+    display: flex;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    background-color: #ddd;
+    border-radius: 10%;
+    padding: 20px;
+    margin-bottom: 1cm;
+    margin-left: 10cm;
+    margin-right: 10cm;
+}
+
+.case :last-child{
+    margin-bottom: 0;
+}
+
+
+.case img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+ 
+
+.case p{
+    margin-left: 1%;
+    display: flex;
+    color: #000;
+}
+
+.case p strong{
+    margin-right: 1cm;
+    color: #000;
+}
+
+
+
+/*partie formations*/
+
+.Formations{
+    background-image: url(../cv/images/cerveau.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+   
+}
+
+.Formations h2{
+   margin-top: 2cm;
+   font-family: robotron ;
+   text-align: center;
+   color: black;
+}
+
+.FormationsEtudes{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.Ecole{
+    width: 70%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.795); /* Couleur blanche avec 50% d'opacité */;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.Ecole h3{
+    text-align: center;
+
+}
+
+.Ecole img{
+    margin-left: 43%;
+    width: 15%;
+    height: 20%;
+}
+
+
+/*Projets et réalisations */
+
+
+.ProjetsEtRealisations h3{
+    text-align: center;
+
+}
+
+.ProjetsEtudes{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.ProjetsEtudes h2{
+    font-family: robotron ;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.Projet{
+    width: 70%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.795); /* Couleur blanche avec 50% d'opacité */;
+    align-items: center;
+    margin-left: 15%;
+}
+.Projet img{
+    margin-left: 43%;
+    width: 15%;
+    height: 20%;
+}
+
+
+
+/*Compéténces */
+
+.CompetencesTechniques{
+    background-image: url(../cv/images/formation\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.CompetencesTechniques h2{
+    font-family: robotron ;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.Container0{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.Container{
+    margin-right: auto;
+    width:  25%;
+    background-color: rgba(255, 255, 255, 0.795); /* Couleur blanche avec 50% d'opacité */;
+    margin-left: 1cm;
+}
+.Container h3{
+    text-align: center;
+    color: rgb(2, 12, 21);
+}
+
+.Langages {
+    display: flex;
+    /*justify-content: flex-start;*/
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 1cm;
+    
+}
+
+.competence {
+    color:rgb(2, 12, 21);
+    font-weight: bold;
+    width: 30%;
+    margin-right: 10px;
+    display: flex;
+}
+
+.competence img {
+    margin-right: 20px;
+    display: flex;
+
+}
+
+.niveau {
+    display: flex;
+    justify-content: flex-end ;
+    float: right ;
+    width: 100%;
+}
+
+.niveau span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2bb52d;
+}
+
+
+.Logiciels {
+    display: flex;
+    /*justify-content: flex-start;*/
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 1cm;
+}
+
+
+.competence2 img {
+    margin-right: 20px;
+    display: flex;
+}
+
+.competence2 {
+    color:rgb(2, 12, 21);
+    font-weight: bold;
+    width: 30%;
+    margin-right: 10px;
+    display: flex;
+}
+
+.niveau2 {
+    display: flex;
+    justify-content: flex-end ;
+    float: right ;
+    width: 100%;
+}
+
+.niveau2 span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2bb52d;
+}
+
+
+.Langues {
+    display: flex;
+    /*justify-content: flex-start;*/
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 1cm;
+}
+.competence3 img {
+    margin-right: 20px;
+    display: flex;
+}
+
+.competence3 {
+    color: rgb(2, 12, 21);
+    font-weight: bold;
+    width: 30%;
+    margin-right: 10px;
+    display: flex;
+}
+
+.niveau3 {
+    display: flex;
+    justify-content: flex-end ;
+    float: right ;
+    width: 100%;
+    margin-right: 3cm;
+}
+
+.niveau3 span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #2bb52d;
+}
+
+
+/*footer*/
+.links{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    margin-left: 15cm;
+}
+
+.link img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
